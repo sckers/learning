@@ -1,0 +1,142 @@
+ID   M91373; SV 1; linear; mRNA; STD; PLN; 1131 BP.
+XX
+AC   M91373;
+XX
+DT   24-APR-1992 (Rel. 31, Created)
+DT   17-APR-2015 (Rel. 83, Last updated, Version 4)
+XX
+DE   Cucumis sativus peroxidase mRNA, complete cds.
+XX
+KW   peroxidase.
+XX
+OS   Cucumis sativus (cucumber)
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons; rosids;
+OC   fabids; Cucurbitales; Cucurbitaceae; Cucumis.
+XX
+RN   [1]
+RP   1-1131
+RA   Rasmussen J.B., Smith J.A., Williams S., Burkhart W., Ward E.R.,
+RA   Somerville S.C., Ryals J., Hammerschmidt R.;
+RT   "Cloning and systemic expression of an acidic peroxidase associated with
+RT   systemic acquired resistance to disease in cucumber";
+RL   Unpublished.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..1131
+FT                   /organism="Cucumis sativus"
+FT                   /mol_type="mRNA"
+FT                   /db_xref="taxon:3659"
+FT   sig_peptide     32..97
+FT                   /gene="peroxidase"
+FT                   /note="putative"
+FT   CDS             32..1021
+FT                   /codon_start=1
+FT                   /gene="pre-peroxidase"
+FT                   /product="peroxidase"
+FT                   /note="putative"
+FT                   /db_xref="GOA:Q39652"
+FT                   /db_xref="HSSP:1PA2"
+FT                   /db_xref="InterPro:IPR000823"
+FT                   /db_xref="InterPro:IPR002016"
+FT                   /db_xref="InterPro:IPR010255"
+FT                   /db_xref="InterPro:IPR019793"
+FT                   /db_xref="InterPro:IPR019794"
+FT                   /db_xref="UniProtKB/TrEMBL:Q39652"
+FT                   /protein_id="AAA33127.1"
+FT                   /translation="MGLPKMAAIVVVVALMLSPSQAQLSPFFYATTCPQLPFVVLNVVA
+FT                   QALQTDDRAAAKLIRLHFHDCFVNGCDGSILLVDVPGVIDSELNGPPNGGIQGMDIVDN
+FT                   IKAAVESACPGVVSCADILAISSQISVFLSGGPIWVVPMGRKDSRIANRTGTSNLPGPS
+FT                   ETLVGLKGKFKDQGLDSTDLVALSGAHTFGKSRCMFFSDRLINFNGTGRPDTTLDPIYR
+FT                   EQLRRLCTTQQTRVNFDPVTPTRFDKTYYNNLISLRGLLQSDQELFSTPRADTTAIVKT
+FT                   FAANERAFFKQFVKSMIKMGNLKPPPGIASEVRLDCKRVNPVRAYDVM"
+FT   mat_peptide     98..1018
+FT                   /gene="peroxidase"
+FT                   /product="peroxidase"
+FT                   /note="putative"
+XX
+SQ   Sequence 1131 BP; 314 A; 276 C; 229 G; 312 T; 0 other;
+     accagagaag accccatttg cagtatcaaa aatgggttta cctaaaatgg cagccattgt        60
+     tgtggtggtg gctttgatgc tatcaccctc tcaagcccag ctttctcctt tcttctacgc       120
+     caccacatgc cctcagctgc ctttcgttgt tctcaacgtg gttgcccaag ccctacagac       180
+     tgatgaccga gctgctgcta agctcattcg cctccatttt catgattgct ttgtcaatgg       240
+     gtgtgatgga tcgattctat tggtagacgt accgggcgtt atcgatagtg aacttaatgg       300
+     acctccaaat ggtggaatcc aaggaatgga cattgtggac aacatcaaag cagcagttga       360
+     gagtgcttgt ccaggagttg tttcttgcgc tgatatctta gccatttcat ctcaaatctc       420
+     tgttttcttg tcgggaggac caatttgggt tgtaccaatg ggaagaaaag acagcagaat       480
+     agccaataga actggaacct caaacttacc tggtccctca gaaactctag tgggacttaa       540
+     aggcaagttt aaagatcaag ggcttgattc tacagatctc gtggctctat caggagccca       600
+     cacgtttgga aaatcaagat gcatgttctt cagtgaccgc ctcatcaact tcaacggcac       660
+     aggaagaccc gacacaacgc ttgacccaat atacagggag cagcttcgaa gactttgtac       720
+     tactcaacaa acacgagtaa atttcgaccc agtcacaccc actagatttg acaagaccta       780
+     ttacaacaat ttgattagct taagagggct tctccaaagc gaccaagagc tcttctcaac       840
+     tcccagagct gataccacag ccattgtcaa aacttttgct gccaacgaac gtgccttctt       900
+     taaacaattt gtgaaatcaa tgatcaaaat gggcaacctc aagcctcccc ctggcattgc       960
+     atcagaagtt agattggact gtaagagggt caacccagtc agagcctacg acgttatgta      1020
+     ataactttat cccacttcat cccttctact tttgctgtct cttgtactac tttgttgatg      1080
+     tattagttca accggttaag atatatatat cgttgaccta aataatagat c               1131
+//
+ID   M57705; SV 1; linear; mRNA; STD; ROD; 237 BP.
+XX
+AC   M57705;
+XX
+DT   05-APR-1991 (Rel. 28, Created)
+DT   14-NOV-2016 (Rel. 89, Last updated, Version 3)
+XX
+DE   Rat truncated thyroid peroxidase mRNA, 3' end.
+XX
+KW   thyroid peroxidase.
+XX
+OS   Rattus norvegicus (Norway rat)
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea;
+OC   Muridae; Murinae; Rattus.
+XX
+RN   [1]
+RP   1-237
+RX   PUBMED; 2233737.
+RA   Derwahl M., Seto P., Rapoport B.;
+RT   "An abnormal splice donor site in one allele of the thyroid peroxidase gene
+RT   in FRTL5 rat thyroid cells introduces a premature stop codon: association
+RT   with the absence of functional enzymatic activity";
+RL   Mol. Endocrinol. 4(6):793-799(1990).
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..237
+FT                   /organism="Rattus norvegicus"
+FT                   /mol_type="mRNA"
+FT                   /cell_type="FRTL5"
+FT                   /db_xref="taxon:10116"
+FT   exon            1..112
+FT                   /partial
+FT                   /gene="thyroid peroxidase"
+FT                   /note="wild-type exon"
+FT   CDS             1..142
+FT                   /partial
+FT                   /codon_start=2
+FT                   /gene="thyroid peroxidase"
+FT                   /product="truncated thyroid peroxidase"
+FT                   /protein_id="AAA42250.1"
+FT                   /translation="IDHDIALTPQSTSTAAFWGGVDCQLTCENQNPCFPIQILNGPKSR
+FT                   K"
+FT   variation       113
+FT                   /gene="thyroid peroxidase"
+FT                   /note="g in wt; a in truncated thyroid peroxidase gene.
+FT                   This changes a splice donor site to a readthrough
+FT                   sequence."
+FT   intron          113..167
+FT                   /gene="thyroid peroxidase"
+FT                   /note="wild-type intron"
+FT   exon            168..237
+FT                   /partial
+FT                   /gene="thyroid peroxidase"
+FT                   /note="wild-type exon"
+XX
+SQ   Sequence 237 BP; 56 A; 87 C; 45 G; 49 T; 0 other;
+     catcgatcat gacattgctc tcacaccaca gagcaccagc acagcagcct tctggggagg        60
+     tgtcgactgc cagttgacct gtgagaacca aaacccctgc ttccccatac agattctaaa       120
+     tggacccaag agccgaaagt gacatccagt ctcccccttt gccacagctt ccctcaaact       180
+     cctcacggac cactgcatgc ctacctttct accgctcctc agccgcctgt ggcactg          237
+//

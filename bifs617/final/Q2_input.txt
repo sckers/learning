@@ -1,0 +1,4 @@
+color blue
+shape round
+weight 150
+speed fast

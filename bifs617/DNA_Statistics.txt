@@ -1,0 +1,2 @@
+The GC content of the DNA sequence given is: 64.0%
+The AT content of the DNA sequence given is: 36.0%

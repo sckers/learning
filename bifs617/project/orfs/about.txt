@@ -1,0 +1,87 @@
+orfs.py
+This program finds the orfs in the sequences provided in a FASTA formatted file.
+The user can set the desired minimum ORF length (in nucleotides) and the ORFs 
+will output to a timestamped file in the same directory.
+
+Dependencies
+sarah.py
+val.py
+nasaro.py
+joowon.py
+re
+sys
+os
+datetime
+
+Limitations
+The program is not designed to find ORFs that may be overlapping in the same direction.
+
+Test cases
+seq1.txt is a FASTA formatted file with a sequence containing 1 ORF that is 21 nucleotides long: 
+	ORF 1: ATGCGGTTTATTTATGCAAAACTGTGA
+		Direction: forward
+		Position: 11
+		Frame: +2
+		Length: 27
+
+seq2.txt is a FASTA formatted file with 2 sequences, each containing 1 ORF at least 21 nucleotides long: 
+	First sequence
+	ORF 1: ATGCGGTTTATTTATGCAAAACTGTGA
+		Direction: forward
+		Position: 11
+		Frame: +2
+		Length: 27
+	Second sequence
+	ORF 2: ATGGGACTATTTAGCCGATAG
+		Direction: forward
+		Position: 9
+		Frame: +3
+		Length: 21
+
+seq3.txt is a FASTA formatted file with 1 sequence containing 2 ORFs in the same direction, at least 21 nucleotides long:
+	ORF 1: ATGCGGGAGATTGTCAACACTCTAGTAAGGTTCGGGCAAACAGTTAAGAAAGTAATGTATATCTGCCTATTTTAA
+		Direction: forward
+		Position: 5
+		Frame: +2
+		Length: 75
+	ORF 2: ATGCACTATGGTTACCAATATTATGTGGAAGCTCTAGCTGTCTTTTCGGTCTATCTTCGCGCTTACTAA
+		Direction: forward
+		Position: 88
+		Frame: +1
+		Length: 69
+
+seq4.txt is a FASTA formatted file with 1 sequence containing 1 forward ORF and 1 reverse ORF, both at least 21 nucleotides long:
+	ORF 1: ATGCGGGAGATTGTCAACACTCTAGTAAGGTTCGGGCAAACAGTTAAGAAAGTAATGTATATCTGCCTATTTTAA
+		Direction: forward
+		Position: 5
+		Frame: +2
+		Length: 75
+	ORF 2: ATGCACTATGGTTACCAATATTATGTGGAAGCTCTAGCTGTCTTTTCGGTCTATCTTCGCGCTTACTAA
+		Direction: reverse
+		Position: -3
+		Frame: -3
+		Length: 69
+
+seq5.txt is a FASTA formatted file with 2 sequences, each with 1 forward ORF and 1 reverse ORF, both at least 21 nucleotides long:
+	First sequence
+	ORF 1: ATGCGGGAGATTGTCAACACTCTAGTAAGGTTCGGGCAAACAGTTAAGAAAGTAATGTATATCTGCCTATTTTAA
+		Direction: forward
+		Position: 5
+		Frame: +2
+		Length: 75
+	ORF 2: ATGCACTATGGTTACCAATATTATGTGGAAGCTCTAGCTGTCTTTTCGGTCTATCTTCGCGCTTACTAA
+		Direction: reverse
+		Position: -3
+		Frame: -3
+		Length: 69
+	Second sequence
+	ORF 1: ATGAGATGTCGGTGTTCCGTTTTGCCATCTCCTGATTGTAGCGGGAGCCTACAGATCCTCTCTCAACAATCCTAG
+		Direction: forward
+		Position: 12
+		Frame: +3
+		Length: 75
+	ORF 2: ATGCCAATCTCGAGCACGAGATTCTTGTTAGGCCTCATACTAACTGCGAGGTCCAATCGCGAGACAGCCCGTTGA
+		Direction: reverse
+		Position: -8
+		Frame: -2
+		Length: 75
